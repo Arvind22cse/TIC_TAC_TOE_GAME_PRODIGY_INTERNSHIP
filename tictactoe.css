@@ -1,0 +1,58 @@
+.cell{
+    width:75px;
+    height: 75px;
+    border: 2px solid;
+    box-shadow: 0 0 15px;
+    line-height: 75px;
+    color:red;
+    background-color: black;
+    font-size: 50px;
+    
+   
+}
+h1{
+    font-size: 50px;
+   
+}
+#status{
+    font-family:  "Permanent Marker",cursive;
+    font-size: 40px;
+}
+h1:hover{
+    text-shadow: 0px 0px 20px;
+}
+
+#gamecontainer{
+    font-family:Chiller ;
+    
+}
+.cell:hover{
+    box-shadow: 0 0 30px;
+    cursor: pointer;
+    background-color: rgb(82, 14, 14);
+}
+#container{
+    display: grid;
+   
+    grid-template-columns: repeat(3,auto);
+    width: 225px;
+}
+body{
+    background-color: black;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+button{
+    color: red;
+    background-color: black;
+    border: 1px solid red;
+    border-radius: 3px;
+    padding: 10px 10px 10px 10px;
+    cursor: pointer;
+    font-family: Chiller;
+    font-size: 30px;
+
+}
+button:hover{
+    box-shadow: 0 0 20px;
+}
